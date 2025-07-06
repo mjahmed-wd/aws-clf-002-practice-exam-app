@@ -385,7 +385,7 @@ const QuizExam: React.FC<QuizExamProps> = ({ questions, examMode, onComplete, on
 
         {/* Options */}
         <ul className="options-list">
-          {shuffledOptions.map((option, index) => (
+          {shuffledOptions.map((option) => (
             <li key={`${currentQuestion.serial}-${option.optionValue}`} className="option-item">
               <div 
                 className={getOptionClasses(option.optionValue, option.isCorrectAns)}

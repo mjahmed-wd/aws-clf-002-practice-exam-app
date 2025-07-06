@@ -23,7 +23,7 @@ const ExamOverview: React.FC<ExamOverviewProps> = ({
   result,
   questions,
   onBack,
-  onViewQuestion
+  onViewQuestion: _onViewQuestion
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [filterType, setFilterType] = useState<FilterType>('all');

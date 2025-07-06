@@ -82,7 +82,7 @@ const ExamResults: React.FC<ExamResultsProps> = ({
     return Array.from(categoryStats.values());
   }, [result, questions]);
 
-  const COLORS = ['#28a745', '#dc3545', '#6c757d'];
+
 
   return (
     <div>
